@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podgląd artykułu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+  <style>
+    /* Dodaj własne style CSS tutaj */
+  </style>
+</head>
+<body>
+  <div class="container mx-auto my-8 px-4">
+    <div id="article-content">
+      <!-- Tutaj zostanie wstawiony kod artykułu -->
+    </div>
+  </div>
+
+  <script>
+    // Dodaj własny kod JavaScript tutaj
+    function renderArticle(content) {
+      const articleContent = document.getElementById('article-content');
+      articleContent.innerHTML = content;
+    }
+  </script>
+</body>
+</html>
